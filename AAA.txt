@@ -1,0 +1,35 @@
+<div class="bottom-container">
+  <div class="row">
+    <div class="col">
+      <a href="http://127.0.0.1:5500/index1.html" style="color:white" class="btn">Registrarse</a>
+    </div>
+    <div class="col">
+      <a href="#" style="color:white" class="btn">Se te olvido tu contraseña?</a>
+    </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <form action="/action_page.php">
+    <div class="row">
+      <h2 style="text-align:center">Iniciar Sesión</h2>
+      <div class="vl">
+        <a href= "http://127.0.0.1:5500/indexNMRL.html" class= "Usuario Normal btn">
+          <i class= ></i>Usuario Normal
+        </a>
+        <a href= "http://127.0.0.1:5500/indexGM.html" class= "Usuario GM btn">
+          <i class= ></i>Usuario GM
+        </a>
+        <span class="vl-innertext">o</span>
+      </div>
+
+    </div>
+  </form>
+</div>
+
+
+
+
+
+
