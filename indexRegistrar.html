@@ -43,20 +43,25 @@ input[type=submit]:hover {
 
 <div class="container">
   <form action="/action_page.php">
-    <label for="fname"><b>Primer Nombre</b>></label>
-    <input type="text" placeholder="Ingresa tu Nombre" id="fname" name="firstname" placeholder="Primer Nombre" required>
+    <label for="fname"><b>Primer Nombre</b></label>
+    <input id="primer_nombre" type="text" name="surname" class="form-control" placeholder="Ingresar Nombre" required="required"
+    data-error="Lastname is required."><br>
 
     <label for="lname"><b>Apellido</b></label>
-    <input type="text" placeholder="Ingresa tu Apellido" id="lname" name="lastname" placeholder="Apellido" required>
+    <input id="Apellido" type="text" name="surname" class="form-control" placeholder="Ingresar Apellido" required="required"
+    data-error="Lastname is required."><br>
     
     <label for="email"><b>Email</b></label>
-    <input type="text" placeholder="Ingresa tu gmail" name="email" id="email" required>
+    <input id="form_email" type="email" name="email" class="form-control" placeholder="Ingresar  Email" required="required"
+    data-error="Valid email is required."><br>
 
     <label for="psw"><b>Contraseña</b></label>
-    <input type="password" placeholder="Ingresa tu contraseña" name="psw" id="psw" required>
-
+    <input class="form-control" type="password" name="password" id="password" required="required" placeholder="Ingresar Contraseña"
+    data-error="Contraseña Invalida."><br>
+    
     <label for="psw-repeat"><b>Repetir Contraseña</b></label>
-    <input type="password" placeholder="Repite tu contraseña" name="psw-repeat" id="psw-repeat" required>
+    <input id="repite_Contraseña" type="rptContraseña" name="rptContraseña" class="form-control" placeholder="Repetir Contraseña" required="required"
+    data-error="Contraseña Invaldia."><br>
     <hr>
     <p>Al crear una cuenta, usted acepta nuestros <a href="#">Terminos y privacidad</a>.</p>
 
